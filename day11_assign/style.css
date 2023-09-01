@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(food.jpg) ;
+
+}
+.section{
+    width: 500px;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    }
+
+    .h3{
+    margin-top:50px;
+    }
+    button{
+        margin-top: 40px;
+        padding: 15px 150px;
+        background-color: red;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    p{
+        margin-top: 30px;
+    }
