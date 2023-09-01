@@ -1,0 +1,40 @@
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+#circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.shape{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    z-index: 100;
+    position: relative;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.triangle{
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid blue;
+    border-right: 75px solid transparent;
+}
