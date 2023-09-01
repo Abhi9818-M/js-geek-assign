@@ -1,15 +1,14 @@
 var Color = [
-    "red",
-    "green",
     "cyan",
-    "black",
-    "voilet",
+    "red",
     "blue",
     "yellow",
     "purple",
-    "orange",
+    "green",
     "lightgreen",
-    "lemon",
+    "voilet",
+    "orange",
+    "lemon"
   ];
     var index = 0 ;
     const circle = document.getElementById("circle");
