@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#box {
+    width: 10vw;
+    height: 10vw;
+    background-color: #bf2424;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box p {
+    font-size: 1.4vw;
+    color: white;
+}
