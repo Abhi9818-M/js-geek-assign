@@ -48,10 +48,39 @@ function getUser(searchValue) {
             cardContainer.innerHTML = "";
             if(result.message === "Not Found"){
                 const heading = document.createElement("h1");
-                heading.innerText = "search sahi se kr"
+                heading.innerText = "Wrong User Id"
                 cardContainer.appendChild(heading)
             }
             else{
+
+                cardContainer.innerHTML = "<div class="firstRow">
+                <div class="firstRow_image">
+                    <img src="" alt="">
+                    <div class="userId">
+                        <h2></h2>
+                        <a href=""></a>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="date">
+                    <p></p>
+                </div>
+            </div>
+            <div class="secondRow">
+                <div class="repo secondRow_card">
+                    <h1>Repository</h1>
+                    <span></span>
+                </div>
+                <div class="Followers secondRow_card">
+                    <h1>followers</h1>
+                   <span></span>
+                </div>
+                <div class="Following secondRow_card">
+                    <h1>following</h1>
+                    <span></span>
+                </div>        
+            </div>";
+
                 const card1 = document.createElement("div")
                 const card2 = document.createElement("div")
                 const imagediv = document.createElement("div")
@@ -62,9 +91,9 @@ function getUser(searchValue) {
                 const date = document.createElement("p")
                 const image = document.createElement("img")
                 const link = document.createElement("a")
-                const repo = document.createElement("p")
-                const follower = document.createElement("p")
-                const following = document.createElement("p")
+                const repo = document.createElement("div")
+                const follower = document.createElement("div")
+                const following = document.createElement("div")
 
                 card1.classList.add("firstRow")
                 userDiv.classList.add("userId")
@@ -79,7 +108,7 @@ function getUser(searchValue) {
                 bio.innerText = result.bio
                 heading.innerText = result.name
                 repo.innerText = result.public_repos
-               
+                
                 follower.innerText = result.followers
                 
                 following.innerText = result.following

@@ -49,6 +49,7 @@ input{
    
     background-color: rgb(111, 205, 205);
     border: none;
+    outline: none;
     padding-right: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -89,6 +90,7 @@ img{
     background-color: rgb(111, 205, 205);
     padding: 50px;
     border-radius: 10px;
+    border: 2px solid red;
    
 }
 .firstRow{
@@ -108,6 +110,7 @@ img{
     padding: 25px;
     border-radius: 10px;
     margin: 20px 0;
+    border: 2px solid blueviolet;
 }
 .userId{
     display: flex;
