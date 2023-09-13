@@ -53,33 +53,7 @@ function getUser(searchValue) {
             }
             else{
 
-                cardContainer.innerHTML = "<div class="firstRow">
-                <div class="firstRow_image">
-                    <img src="" alt="">
-                    <div class="userId">
-                        <h2></h2>
-                        <a href=""></a>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="date">
-                    <p></p>
-                </div>
-            </div>
-            <div class="secondRow">
-                <div class="repo secondRow_card">
-                    <h1>Repository</h1>
-                    <span></span>
-                </div>
-                <div class="Followers secondRow_card">
-                    <h1>followers</h1>
-                   <span></span>
-                </div>
-                <div class="Following secondRow_card">
-                    <h1>following</h1>
-                    <span></span>
-                </div>        
-            </div>";
+                cardContainer.innerHTML = "";
 
                 const card1 = document.createElement("div")
                 const card2 = document.createElement("div")
