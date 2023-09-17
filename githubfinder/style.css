@@ -37,18 +37,17 @@ form{
     box-shadow: 10px 10px 200px 10px red;
     border-radius: 10px;
     margin-bottom: 50px
+    
 }
 form>div{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    
 }
 input{
-   
     background-color: rgb(111, 205, 205);
-    border: none;
+    border: 2px solid red;
     outline: none;
     padding-right: 500px;
     padding-top: 10px;
@@ -93,10 +92,11 @@ img{
     border: 2px solid red;
    
 }
-.firstRow{
+.firstrow{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 15px;
 }
 .firstRow_image{
     display: flex;
@@ -110,7 +110,7 @@ img{
     padding: 25px;
     border-radius: 10px;
     margin: 20px 0;
-    border: 2px solid blueviolet;
+  
 }
 .userId{
     display: flex;
@@ -128,4 +128,26 @@ img{
     font-size: 20px;
     font-weight: bold;
     color: rgb(104, 102, 102);
+}
+.thirdRow_data{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location i{
+    margin: 10px;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.company i{
+   margin: 10px; 
 }
